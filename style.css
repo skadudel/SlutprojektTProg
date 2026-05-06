@@ -8,16 +8,33 @@ body{
 }
 
 .topnav{
-    display: flex;
-    width: 100%;
+    overflow: hidden;
     background-color: red;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
     font-size: 20px;
     font-weight: bold;
-    box-sizing: border-box;
-    position: fixed;
+    position: relative;
+    padding: 20px;
+}
+
+.topnav a {
+    color: white;
+    /* background-color: black; */
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.topnav a.icon {
+    /* background-color: green; */
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 20px;
+}
+
+.topnav #burger{
+    display: none;
 }
 
 img{
