@@ -9,11 +9,13 @@ body{
 
 .topnav{
     overflow: hidden;
-    background-color: red;
+    background-color: #000;
     font-size: 20px;
     font-weight: bold;
-    position: relative;
+    position: fixed;
     padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .topnav a {
@@ -41,10 +43,15 @@ img{
     width: 40vw;
 }
 
+h3{
+    font-weight: normal;
+    margin: 5px 0;
+    color: white;
+}
+
 h1{
     font-weight: normal;
     margin: 5px 0;
-
 }
 
 h2{
@@ -72,7 +79,7 @@ h2{
     display: flex;
     background-color: blueviolet;
     width: 100%;
-    padding: 100px 50px 56px 50px;
+    padding: 50px 50px 56px 50px;
     justify-content: space-around;
     box-sizing: border-box;
 }
@@ -82,4 +89,12 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#Guild{
+    scroll-margin-top: 200px;
+}
+
+#Capital{
+    scroll-margin-top: 200px;
 }
