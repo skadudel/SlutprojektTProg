@@ -63,7 +63,7 @@ h2{
     display: flex;
     background-color: blue;
     width: 100%;
-    padding: 100px 50px 56px 50px;
+    padding: 100px 30px 36px 30px;
     justify-content: space-around;
     box-sizing: border-box;
 }
@@ -75,11 +75,25 @@ h2{
     align-items: center;
 }
 
+.GuildImage{
+    display: flex;   
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.GuildImage #MyButton{
+    background: none;
+    border: 0;
+    font-size: 25px;
+    color: white;
+}
+
 .TheCapital{
     display: flex;
     background-color: blueviolet;
     width: 100%;
-    padding: 50px 50px 56px 50px;
+    padding: 30px 30px 36px 30px;
     justify-content: space-around;
     box-sizing: border-box;
 }
@@ -91,10 +105,89 @@ h2{
     align-items: center;
 }
 
+.CapitalImage{
+    display: flex;   
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 30px 50px 50px 50px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 62%;
+    height: 20%;
+}
+
+.ModalContent{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 95%;
+    flex-direction: column;
+}
+
+.close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: center;
+    background-color: red;
+    font-size: 28px;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    margin-right: 0;
+}
+
+.close:hover, .close:focus{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #Guild{
     scroll-margin-top: 200px;
 }
 
 #Capital{
     scroll-margin-top: 200px;
+}
+
+#MyButton:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+    .TheGuild{
+        padding: 100px 10px 10px 10px;
+        flex-direction: column;
+    }
+    .TheCapital{
+        padding: 30px 10px 10px 10px;
+        flex-direction: column;
+    }
+    img{
+        width: 90vw;
+        margin: 10px;
+    }
+}
+
+@media  screen and (max-width: 490px) {
+    h3{
+        font-size: 17px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
 }
