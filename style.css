@@ -41,6 +41,7 @@ body{
 
 img{
     width: 40vw;
+    z-index: -1;
 }
 
 h3{
@@ -61,7 +62,7 @@ h2{
 
 .TheGuild{
     display: flex;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.7);
     width: 100%;
     padding: 100px 30px 36px 30px;
     justify-content: space-around;
@@ -91,7 +92,7 @@ h2{
 
 .TheCapital{
     display: flex;
-    background-color: blueviolet;
+    background-color: rgba(138, 43, 226,0.7);
     width: 100%;
     padding: 30px 30px 36px 30px;
     justify-content: space-around;
@@ -115,21 +116,27 @@ h2{
     display: none;
     position: fixed;
     z-index: 1;
-    padding: 30px 50px 50px 50px;
+    padding: 30px 30px 30px 30px;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 62%;
-    height: 20%;
+    height: 160px;
 }
 
 .ModalContent{
     background-color: white;
     display: flex;
     margin: auto;
-    padding: 20px;
     border: 1px solid black;
-    width: 95%;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
     flex-direction: column;
+}
+
+
+.ModalContent p{
+    padding: 20px;
 }
 
 .close{
@@ -143,7 +150,7 @@ h2{
     font-weight: bold;
     width: 35px;
     height: 35px;
-    margin-right: 0;
+    position: fixed;
 }
 
 .close:hover, .close:focus{
@@ -175,6 +182,10 @@ h2{
     img{
         width: 90vw;
         margin: 10px;
+    }
+    .Modal{
+        margin-bottom: 800px;
+        width: 81vw;
     }
 }
 
