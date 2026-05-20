@@ -112,6 +112,13 @@ h2{
     justify-content: space-around;
 }
 
+.CapitalImage #MyButton{
+    background: none;
+    border: 0;
+    font-size: 25px;
+    color: white;
+}
+
 .Modal{
     display: none;
     position: fixed;
@@ -159,11 +166,11 @@ h2{
 }
 
 #Guild{
-    scroll-margin-top: 200px;
+    scroll-margin-top: 190px;
 }
 
 #Capital{
-    scroll-margin-top: 200px;
+    scroll-margin-top: 190px;
 }
 
 #MyButton:hover{
