@@ -6,6 +6,7 @@
     <title>D&D campaign good-to-knows</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <div class="topnav">
@@ -25,14 +26,20 @@
             <h2>The adventurers guild is an organization funded by clientel paying for services and resources, and by the king. The clientel can pay the guild for two things. First of is the resources that the adventurers obtain through their adventurers that they are not interested in keeping and that most stores won't buy, like the innards of a goblin. The other kinds of services are the usual stuff that adventurers deal with, like monster extermination or escorts. When they pay the guild, half of the money is added to the base amount that the mission would be paid for by the guild(the other half is kept by the guild), which in turn makes adventurers accept such quests quicker. Most adventurers need to pay taxes for the rewards that they earn from their missions, but there are some exceptions. The amount of taxes is based of two things, the adventurers rank with higher ranks being required to pay less taxes. The heroes and their party members don't need to pay any taxes, this is so that the heroes will have a better time being heroes and so that if they lose a member it will be more appealing for other adventurers to join the party.</h2>
         </div>
         <div class="GuildImage">
-            <button id="MyButton">More on "heroes"</button>
+            <button class="modal-button" href="#myModal1">More on "heroes"</button>
             <img src="BlackSquare.jpg" alt="I'm working on it">
         </div>
-        <div id="MyModal" class="Modal">
-            <div class="ModalContent">
-                <span class="close">&times</span>
-                <p>The heroes aka. the summoned ones. They are summoned witout much more than wanting to not be at the place they are at currently, while also being deemed able to do the "hero stuff" that they are summoned for. This usually only happens when there is a powerful force that threatens civilization.</p>
+        <div id="myModal1" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">x</span>
+                </div>
+                <div class="modal-body">
+                    <p>The heroes aka. the summoned ones. They are summoned witout much more than wanting to not be at the place they are at currently, while also being deemed able to do the "hero stuff" that they are summoned for. This usually only happens when there is a powerful force that threatens civilization.</p>
+                </div>
+                <div class="modal-footer"></div>
             </div>
+            
         </div>
     </div>
     <div class="TheCapital">
@@ -42,17 +49,22 @@
             <h2>The capital is a city that is the central hub of most big corporations and guilds, unless it's something like the thieves guild that mainly consists of members that are criminals. It is widely known as the safe city of trade due to the amount of guards roaming the streets on patroll along with all the adventurers present that it is almost impossible for crime to be commited without the culprit being caught. This extra security is seen as more needed compared to most citys and towns security. This is due to the fact that it is first and foremost a trade hub where most taxes comes from merchants selling goods and that it is the residence of the royal family. Both the adventurers guild and the knights of the kingdom have their main hq in the capital, both being far more extravagant compared to the other places in the capital where they have bases. However, these bases are more extravagant than the bases that they have outside of the  capital. Due to the popularity of selling items in the capital there is a market like that of no other city on the continet. Due to the abundance of merhcants; prices are constantly being changed to be a better price based on the wuality of the product and what other merchants are selling equivalent items for. There is also an incredibly large difference of prices and quality between vendors with or without stalls. This is due to the fact that the stalls are so expensive that only merchants with better prices for their good quality products can afford to buy, which leads to those merchants getting the ability to sell their merchandise for more money because they have a stall that shows that their goods are of good quality.</h2>
         </div>
         <div class="CapitalImage">
-            <button id="MyButton">More on the royal family</button>
+            <button class="modal-button" href="#myModal2">More on the royal family</button>
             <img src="BlackSquare.jpg" alt="I'm working on it">
         </div>
-        <div id="MyModal2" class="Modal">
-            <div class="ModalContent">
-                <span class="close">&times</span>
-                <p>The current royal family consists of 16 members. This includes the king, the queen, the queens mother and father, the first prince and his wife, the first princess and her wife, the second prince and his wife, the second princess and her husband, the third prince and his husband, the third princess and the fourth princess.</p>
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">  
+                    <span class="close">x</span>
+                </div>
+                <div class="modal-body">
+                    <p>The current royal family consists of 16 members. This includes the king, the queen, the queens mother and father, the first prince and his wife, the first princess and her wife, the second prince and his wife, the second princess and her husband, the third prince and his husband, the third princess and the fourth princess.</p>
+                </div>
+                <div class="modal-footer"></div>
             </div>
+            
         </div>
     </div>
-    </div>
-    <script src="clicking.js"></script>
 </body>
+    <script src="clicking.js"></script> 
 </html>
