@@ -83,13 +83,6 @@ h2{
     align-items: center;
 }
 
-.GuildImage .modal-button{
-    background: none;
-    border: 0;
-    font-size: 25px;
-    color: white;
-}
-
 .TheCapital{
     display: flex;
     background-color: rgba(138, 43, 226,0.7);
@@ -112,11 +105,12 @@ h2{
     justify-content: space-around;
 }
 
-.CapitalImage .modal-button{
+.modal-button{
     background: none;
     border: 0;
     font-size: 25px;
     color: white;
+    cursor: pointer;
 }
 
 .modal{
