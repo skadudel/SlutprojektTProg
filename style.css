@@ -41,7 +41,7 @@ body{
 
 img{
     width: 40vw;
-    z-index: -1;
+    /* z-index: 0; */
 }
 
 h3{
@@ -53,21 +53,27 @@ h3{
 h1{
     font-weight: normal;
     margin: 5px 0;
+    color: white;
 }
 
 h2{
     font-weight: normal;
     margin: 10px 0;
+    color: white;
 }
 
 .TheGuild{
     display: flex;
-    background-color: rgba(0, 0, 255, 0.7);
+    background-image: url("GuildBackground1.png");
+    background-size: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
     width: 100%;
     padding: 100px 30px 36px 30px;
     justify-content: space-around;
     box-sizing: border-box;
 }
+
 
 .GuildText{
     padding: 0px 20px;
@@ -85,7 +91,11 @@ h2{
 
 .TheCapital{
     display: flex;
-    background-color: rgba(138, 43, 226,0.7);
+    background-image: url("Merchant1.png");
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    width: 100%;
     width: 100%;
     padding: 30px 30px 36px 30px;
     justify-content: space-around;
@@ -195,6 +205,7 @@ h2{
     .TheGuild{
         padding: 100px 10px 10px 10px;
         flex-direction: column;
+        background-size: 100%;
     }
     .TheCapital{
         padding: 30px 10px 10px 10px;
